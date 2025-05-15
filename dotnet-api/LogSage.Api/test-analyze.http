@@ -1,0 +1,13 @@
+POST http://localhost:7015/api/loganalysis/analyze
+Content-Type: multipart/form-data
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="../../examples/logs/sample.log"
+Content-Type: text/plain
+
+< ./examples/logs/sample.log
+--boundary
+Content-Disposition: form-data; name="query"
+
+Loglarda hangi hatalar meydana gelmiş ve çözüme ulaşılmış mı?
+--boundary--

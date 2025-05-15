@@ -1,0 +1,22 @@
+# .NET build
+bin/
+obj/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Secret files
+.env
+
+# Rider / PyCharm
+.idea/
