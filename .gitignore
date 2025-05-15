@@ -13,7 +13,6 @@ __pycache__/
 Thumbs.db
 
 # Docker
-*.log
 
 # Secret files
 .env
